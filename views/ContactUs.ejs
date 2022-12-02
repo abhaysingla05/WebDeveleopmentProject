@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+    rel="stylesheet"
+  />
+    <title>Document</title>
+</head>
+<body>
+    <section id="Contactt"  style="background-color:rgb(7, 4, 21); color: rgb(17, 141, 141);">
+        <%-include("nav") %>
+        <br><br><br>
+        <div class="row">
+          <div class="column ">
+            <img class="shadow" style="width: 400px;" src="images/Contact US.png" alt="">
+          </div>
+          <div style="margin-right:150px ;" class="column">
+            <div style="margin-right: 40px;">
+            <div  style=" font-weight: bold; font-size: 25px;">Contact us</div><br><br>
+            <div>Full Name</div>
+            <form action="/index", method="POST" >
+            
+              <input class="input" name="name" type="text" placeholder="Enter your Full Name" ><br><br>
+              <div>Email</div>
+              <input class="input " name="email" type="text" placeholder="Enter your Email" ><br><br>
+              <div>Message</div>
+              <input style="height:100px ;" class="input " name="message" type="text" placeholder="Enter the Message" ><br><br>
+              <button type="submit" value="Submit" class="contactbutton ">Let's talk</button>
+              </form>
+            </div>
+          </div>
+        </div><br><br><br><br>
+      </section>
+      
+</body>
+</html>
